@@ -1,0 +1,8 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sections.bc5f5f50-03ba-4493-933e-7d3c6b747d3b:read' # Cards
+  - 'sections.61e5f023-b1f6-4e18-8bdb-da04ccf15d29:read' # Drinks
+  - 'sections.ac81c94b-bed2-498c-971f-63b22840bcc5:read' # Home
+  - 'sections.bf8a2166-0558-4aba-9449-cadb1fb8b4ec:read' # Pages
+  - 'sections.77f6fdf8-752c-4cb5-9276-548216208149:read' # Trainers

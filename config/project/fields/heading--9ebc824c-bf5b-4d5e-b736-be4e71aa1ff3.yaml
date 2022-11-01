@@ -1,0 +1,19 @@
+columnSuffix: gihgktvu
+contentColumnType: text
+fieldGroup: 798e7d9e-682f-4d1f-9b2c-0b026e7008ae # Common
+handle: heading
+instructions: ''
+name: Heading
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

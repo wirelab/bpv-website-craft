@@ -1,0 +1,41 @@
+field: 0a0a2b29-3474-4910-9b8f-2c4b56ea48af # Cards Benefits
+fieldLayouts:
+  a3f357bf-7e37-4377-ad76-20ed0c0e8982:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 6d7d1bb9-4ba6-4b73-b53a-538e9508a5d4 # Benefit
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  6d7d1bb9-4ba6-4b73-b53a-538e9508a5d4: # Benefit
+    columnSuffix: fklcbwrd
+    contentColumnType: text
+    fieldGroup: null
+    handle: benefit
+    instructions: ''
+    name: Benefit
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: benefit
+name: Benefit
+sortOrder: 1

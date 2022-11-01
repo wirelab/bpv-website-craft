@@ -1,0 +1,19 @@
+columnSuffix: cxpwzmgj
+contentColumnType: text
+fieldGroup: b051bbec-e75a-42e2-9c60-63a0e24184eb # Trainers
+handle: profession
+instructions: ''
+name: Profession
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

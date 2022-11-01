@@ -1,0 +1,12 @@
+
+
+
+{% extends 'layouts/_main.twig' %}
+
+{% block content %}
+
+    {% for pagePart in entry.pageParts %}
+        {% include 'parts/_'~ pagePart.type ~'.twig' with {pagepart: pagePart }  %}
+    {% endfor %}
+
+{% endblock %}

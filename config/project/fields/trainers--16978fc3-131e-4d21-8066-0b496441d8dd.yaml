@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b051bbec-e75a-42e2-9c60-63a0e24184eb # Trainers
+handle: trainers
+instructions: ''
+name: Trainers
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '3'
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:77f6fdf8-752c-4cb5-9276-548216208149' # Trainers
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

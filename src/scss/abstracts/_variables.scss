@@ -1,0 +1,17 @@
+// Define your scss variables here, like your colors
+
+$main_color: #3203cc;
+$main_color_hover: #6f45f8;
+$secondary_color: #fbfbfb;
+
+$main_button_color: #ffd631;
+
+$header_color: #AEACAF;
+$header_color_active: #444444;
+
+$white_color: #fff;
+$font_color_hero :#391403;
+
+:root{
+    --main-color: #{$main_color};
+}

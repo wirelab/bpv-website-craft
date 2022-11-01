@@ -1,0 +1,16 @@
+columnSuffix: hrxqhsii
+contentColumnType: string
+fieldGroup: f6444a6b-c0de-4cb2-97d1-06b321eb15fc # pricing
+handle: iconPicker
+instructions: ''
+name: 'Icon Picker'
+searchable: false
+settings:
+  columnType: text
+  iconSets: null
+  remoteSets:
+    - font-awesome-all
+  showLabels: '1'
+translationKeyFormat: null
+translationMethod: none
+type: verbb\iconpicker\fields\IconPickerField

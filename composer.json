@@ -1,0 +1,43 @@
+{
+    "name": "wirelab/wirecraft",
+    "description": "Standard Craft install for Wirelab projects",
+    "version": "1.5.0",
+    "authors": [
+        {
+            "name": "Wirelab",
+            "email": "algemeen@wirelab.nl",
+            "homepage": "https://wirelab.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "craftcms/cms": "^3.7.13",
+        "ether/seo": "^3.6.2",
+        "craftcms/redactor": "^2.4.0",
+        "vlucas/phpdotenv": "^5.3",
+        "spicyweb/craft-neo": "2.13.15",
+        "verbb/icon-picker": "^1.1"
+    },
+    "require-dev": {
+        "symplify/easy-coding-standard": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "modules\\sitemodule\\": "modules/sitemodule/src"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "craftcms/plugin-installer": true,
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    }
+}

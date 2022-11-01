@@ -1,0 +1,22 @@
+<div class="container_flex">
+
+	<section class="trainer">
+		<div class="trainer_header">
+			<h2>{{ pagePart.heading}}</h2>
+		</div>
+		<div class="container_trainer">
+			{% for trainer in pagePart.trainers.all() %}
+				<div class="cards">
+					{% set asset = trainer.trainerImage.one() %}
+					<img src="{{ asset.getUrl('trainerCrop') }}" alt="">
+					<div class="overlay">
+						<div class="card_text">
+							<h4>{{trainer.trainerName }}</h4>
+							<p>{{ trainer.profession }}</p>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</section>
+</div>

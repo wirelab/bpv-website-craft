@@ -1,0 +1,35 @@
+childBlocks: null
+field: 610e5723-d90d-4865-988f-59fc67d2dc7d # Page Parts
+fieldLayouts:
+  56bc6bb0-497b-4a9a-9cb9-70802b081cce:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9ebc824c-bf5b-4d5e-b736-be4e71aa1ff3 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 16978fc3-131e-4d21-8066-0b496441d8dd # Trainers
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+group: null
+handle: trainers
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Trainers
+sortOrder: 1
+topLevel: true

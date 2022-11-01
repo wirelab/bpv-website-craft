@@ -1,0 +1,79 @@
+dateModified: 1666606098
+email:
+  fromEmail: algemeen@wirelab.nl
+  fromName: Wirecraft
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0a0a2b29-3474-4910-9b8f-2c4b56ea48af: 'Cards Benefits' # Cards Benefits
+    2b0cb563-1aec-40f0-b4d0-8758e7b315bc: Price # Price
+    2b4259f0-5116-41eb-9949-66d50a52b06c: Default # Default
+    5e4a8f82-92a5-466d-9b92-3537ea9a827c: Home # Home
+    5fcaf7f3-c283-4227-af93-03abbf586980: 'Usp Title' # Usp Title
+    6d7d1bb9-4ba6-4b73-b53a-538e9508a5d4: Benefit # Benefit
+    6fbcc1bf-49a3-4968-9e0a-bfb9ff51edec: 'Trainer crop' # Trainer crop
+    6fda7c2d-bb7b-4162-8d8b-331be2e6c83f: Cards # Cards
+    8b7f76f9-b6b7-4a9c-be92-b206e4c3a3da: Wirecraft # Wirecraft
+    8e54fc5c-54a0-40f1-a9f1-efd1a536dd7b: 'Icon Picker' # Icon Picker
+    9db9bcc1-618d-41a5-a510-e81586bee9ad: 'Trainer Image' # Trainer Image
+    9ebc824c-bf5b-4d5e-b736-be4e71aa1ff3: Heading # Heading
+    29fd2727-fae1-4eb2-bab3-3fe96b5f48ef: Benefit # Benefit
+    32dedb48-0d75-40f1-915d-a2a64e425917: 'Public Schema' # Public Schema
+    34f2de1d-350d-486c-b925-c8f472300f1b: Wirecraft # Wirecraft
+    53b36d8a-ae57-4c38-969f-2bf8731b9b3e: Benefit # Benefit
+    61e5f023-b1f6-4e18-8bdb-da04ccf15d29: Drinks # Drinks
+    76c40265-e8a1-4872-a47e-f7362dcb28c9: Pricing # Pricing
+    77b6a5a5-3d13-49fa-9df6-81567433d87a: Profession # Profession
+    77f6fdf8-752c-4cb5-9276-548216208149: Trainers # Trainers
+    84b73525-9bb4-411d-8c47-85dc9b96020c: Default # Default
+    163f6275-8344-4320-bb8c-b14c0763d207: Drinks # Drinks
+    218ed4f4-8174-426d-9005-4c2591fe0622: Price # Price
+    610e5723-d90d-4865-988f-59fc67d2dc7d: 'Page Parts' # Page Parts
+    616ca367-0df7-464b-9bd6-a7f5bc4c7330: Trainers # Trainers
+    798e7d9e-682f-4d1f-9b2c-0b026e7008ae: Common # Common
+    16978fc3-131e-4d21-8066-0b496441d8dd: Trainers # Trainers
+    a9942987-bc17-4b67-87e9-5ce8316aeb2f: Name # Name
+    ac81c94b-bed2-498c-971f-63b22840bcc5: Home # Home
+    b051bbec-e75a-42e2-9c60-63a0e24184eb: Trainers # Trainers
+    bc5f5f50-03ba-4493-933e-7d3c6b747d3b: Cards # Cards
+    bf8a2166-0558-4aba-9449-cadb1fb8b4ec: Pages # Pages
+    c74edd39-3ebb-46c4-bfbb-e83ee709124a: Default # Default
+    c95f6580-fba2-4160-9e54-8a7fa69e7e90: Images # Images
+    dc7a8980-1579-4b14-8aae-bc8ef3edae44: Benefits # Benefits
+    e81a2703-8bb8-42f9-8243-7c4dba60a541: Plan # Plan
+    e2141813-4a34-40ac-96af-c7931de0bf69: ButtonName # ButtonName
+    f6444a6b-c0de-4cb2-97d1-06b321eb15fc: pricing # pricing
+    fb319e3f-a92f-4baa-9d62-0cf32defa884: PriceColumn # PriceColumn
+    ff82bc9d-743b-40da-a2f9-d9c30c889a65: Default # Default
+plugins:
+  icon-picker:
+    edition: standard
+    enabled: true
+    licenseKey: KG0Z0LW75PEJOE5JTHVU1CR3
+    schemaVersion: 1.0.1
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: KRND0EGS0H5FGLQ881MM53T5
+    schemaVersion: 2.13.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
+system:
+  edition: pro
+  live: true
+  name: Wirecraft
+  retryDuration: null
+  schemaVersion: 3.7.33
+  timeZone: Europe/Amsterdam
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

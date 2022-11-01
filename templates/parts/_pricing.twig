@@ -1,0 +1,34 @@
+<div class="container_flex">
+	<section class="pricing">
+		<div class="pricing_header">
+				<h2>{{ pagePart.heading}}</h2>
+		</div>
+		<div class="container_pricing">
+			{% for card in pagePart.cards.all() %}
+				<div class="card">
+					<div class="top_icon">
+						<i class="{{ card.iconPicker }}"></i>
+					</div>
+					<div class="actual_price">
+						<p>&dollar;{{ card.price }}<span>/month</span>
+						</p>
+						<p class="plan_type">{{ card.plan }}</p>
+						</div>
+					<div class="container_benefits">
+                        {% for item in card.cardsBenefits %}
+						<div class="benefits">
+							<div class="dot">
+								<i class="fa-solid fa-check"></i>
+							</div>
+							<p>{{ item.benefit }}</p>
+						</div>
+                        {% endfor %}
+					</div>
+					<div class="pricing_button">
+						<button>{{ card.buttonname }}</button>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</section>
+</div>

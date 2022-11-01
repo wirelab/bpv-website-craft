@@ -1,0 +1,21 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 798e7d9e-682f-4d1f-9b2c-0b026e7008ae # Common
+handle: cards
+instructions: ''
+name: Cards
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '3'
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: null
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

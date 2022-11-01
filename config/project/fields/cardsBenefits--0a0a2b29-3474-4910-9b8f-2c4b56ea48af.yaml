@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: dc7a8980-1579-4b14-8aae-bc8ef3edae44 # Benefits
+handle: cardsBenefits
+instructions: ''
+name: 'Cards Benefits'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_cardsbenefits}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

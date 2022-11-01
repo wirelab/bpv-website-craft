@@ -1,0 +1,19 @@
+columnSuffix: gymjinrc
+contentColumnType: text
+fieldGroup: f6444a6b-c0de-4cb2-97d1-06b321eb15fc # pricing
+handle: price
+instructions: ''
+name: Price
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

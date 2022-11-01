@@ -1,0 +1,24 @@
+* {
+   position: relative;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+   padding:0;
+   margin:0;
+   background-color: $secondary_color;
+}
+
+body:before {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 300;
+   content: '';
+   pointer-events: none;
+   background: rgba(5,5,5,0);
+   transition: background-color .3s ease;
+ }

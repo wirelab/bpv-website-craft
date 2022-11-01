@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: trainers
+name: Trainers
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  34f2de1d-350d-486c-b925-c8f472300f1b: # Wirecraft
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel

@@ -1,0 +1,16 @@
+{% script at head %}
+{% if 
+    craft.app.projectConfig.get("plugins.sentry-logger.enabled")
+    and craft.app.env != 'dev' 
+%}
+window.SENTRY_ENABLED = true;
+window.SENTRY_DSN = '{{ getenv('SENTRY_DSN') }}';
+window.SENTRY_RELEASE = '{{ getenv('SENTRY_RELEASE') }}';
+window.SENTRY_ENVIRONMENT = '{{ getenv('SENTRY_ENVIRONMENT') }}';
+{% else %}
+window.SENTRY_ENABLED = false;
+window.SENTRY_DSN = null;
+window.SENTRY_RELEASE = null;
+window.SENTRY_ENVIRONMENT = null;
+{% endif %}
+{% endscript %}
